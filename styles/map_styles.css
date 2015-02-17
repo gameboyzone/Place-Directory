@@ -1,0 +1,13 @@
+﻿/************************************************************/
+/****************** CSS styles for Map tags *****************/
+/************************************************************/
+
+#mapContainer {border:1px solid black; color:black !important; font-family:Arial !important;}
+#map, #mapContainer {width:490px; height:400px; text-align:left; }
+#mapContainer { border:4px double black; padding:5px; }
+#spinner {visibility:visible; float:left; }
+#poweredby { text-align: right; margin-right: 3px;}
+.marker {font-size: 11px;}
+.marker .businessimage { float: left;}
+.marker .ratingsimage {vertical-align:middle; margin-top:0px;}
+.marker .businessinfo { margin-left: 110px;}

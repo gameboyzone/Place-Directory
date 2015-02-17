@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Domine';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Domine Bold'), local('Domine-Bold'), url(http://themes.googleusercontent.com/static/fonts/domine/v1/BmiPqZorq0QiT-p6kf1paT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'New Rocker';
+  font-style: normal;
+  font-weight: 400;
+  src: local('New Rocker'), local('NewRocker-Regular'), url(http://themes.googleusercontent.com/static/fonts/newrocker/v1/WxdbiEM9pvmAfOzkEv7pcxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Domine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Domine'), local('Domine-Regular'), url(http://themes.googleusercontent.com/static/fonts/domine/v1/1KlmlHXZHUehH22N_q86AA.woff) format('woff');
+}

@@ -1,0 +1,14 @@
+﻿/********************************************************************/
+/********** CSS overriding styles for Main-Design for IE7 ***********/
+/********************************************************************/
+
+
+#controls > div > label 
+{
+    float:left;
+}
+
+#controls > div > button
+{
+    text-align:center !important;
+}

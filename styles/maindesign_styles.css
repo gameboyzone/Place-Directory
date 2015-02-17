@@ -1,0 +1,199 @@
+﻿/************************************************************/
+/****************** CSS styles for Main-Design **************/
+/************************************************************/
+
+/* Styles for structure tags */
+
+
+@font-face 
+{
+    font-family: Avenir;
+    src: url('../fonts/AvenirLTPro-Medium.ttf');
+    src: url('../fonts/AvenirLT-Medium.eot');
+    src: url('../fonts/AvenirLT-Medium.svg');
+    src: url('../fonts/AvenirLT-Medium.woff');
+    
+    src: url('../fonts/AvenirLT-Medium.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/AvenirLT-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/AvenirLT-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirLTPro-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirLT-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.body-class 
+{
+    margin: 0px auto;
+    font-family: 'Avenir', serif;
+    color: black;
+    font-size: 0.9em;
+    background-color: white;
+    margin: 10px 0px 10px;
+}
+
+#main-container 
+{
+    margin:0px auto;
+}
+
+#container
+{
+    margin: 0px auto;
+    width: 980px;
+}
+
+#header 
+{
+    margin:0px auto; 
+    text-align:center; 
+    font-family:'Avenir', cursive; 
+    border:4px double black; 
+    padding:10px;
+}
+
+.title
+{
+	vertical-align:top; margin:5px 0px 0px 0px;
+}
+
+.logo 
+{
+    width:40px; 
+    height:40px;
+}
+
+#content 
+{
+    margin:0px auto;
+}
+
+#controls 
+{
+    width:455px; 
+    float:left;
+}
+
+#results
+{
+    width:505px; 
+    float:right; 
+    text-align:left; 
+    vertical-align:top;
+}
+
+#yelp-advert 
+{
+    display:inline;
+}
+
+#footer 
+{
+    margin:0px auto; 
+    text-align:center; 
+    vertical-align:bottom; 
+    margin-top:20px; 
+    padding:10px; 
+    border:4px double black;
+}
+
+.header-message
+{
+    font-weight:bold; 
+    font-size:1.1em;
+}
+
+/* Styles for components */
+
+select 
+{
+    color:black;
+    font-family:'Avenir', serif;
+    border:1px solid black;
+}
+
+button, input[type=submit], input[type=button]
+{
+    font-family:'Avenir', serif;
+    color:black;
+    border:2px solid black;
+    background-color:#d3d3d3;
+}
+
+input[type=text] 
+{
+    color: black;
+    font-family: 'Avenir', serif;
+    border: 1px solid black;
+}
+
+/* Styles for Bookmarks in Footer */
+
+.socialbookmarks 
+{
+    border:none; 
+    vertical-align:bottom;
+}
+
+/* Styles for components inside 'control' container */
+
+ #controls > div
+{
+    border:4px double black;
+    padding:10px;
+    width:350px;
+    margin-bottom:20px;
+}
+
+#controls > div > label 
+{
+    /*float:left; For IE 7*/
+}
+
+#controls > div > select
+{
+    float:right;
+    margin-top:-1px;
+}
+
+#controls > div > button
+{
+    text-align:right;
+
+    /* text-align:center;    For IE 7 */
+}
+
+/* Styles for components inside form */
+
+form > div > label
+{
+    float:left;
+}
+
+form > div > input[type='text'] 
+{
+    float:right;
+}
+
+form > div > input[type='submit'], form > div > input[type='button'] 
+{
+    margin-left:30px;
+}
+
+/* Styles for components inside 'geolocation-feature' container */
+
+#geolocation-feature 
+{ 
+    border:4px double black; 
+    padding:10px;
+}
+
+#geolocation-feature select
+{
+    margin-left:10px;
+}
+
+#geolocation-feature button
+{
+    margin-left:10px;
+    width:140px;
+}
+

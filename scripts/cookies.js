@@ -1,0 +1,64 @@
+// cookies.js
+// You can use this code for your projects!
+// Derived from the Bill Dortch code at http://www.hidaho.com/cookies/cookie.txt
+
+var today = new Date();
+//expires in a year....
+var expiry = new Date(today.getTime() + 365 * 24 * 60 * 60 * 1000);
+
+function getCookieVal(offset)
+{
+	var endstr = document.cookie.indexOf (";", offset);
+	if (endstr == -1) { endstr = document.cookie.length; }
+    
+	str = document.cookie.substring(offset, endstr);
+	
+	//return unescape();
+	
+	alert(str);
+	
+	return str;
+}
+
+function GetCookie(name)
+{
+	var arg = name + "=";
+	var alen = arg.length;
+	var clen = document.cookie.length;
+	var i = 0;
+	
+	while (i < clen)
+	{
+		var j = i + alen;
+		if (document.cookie.substring(i, j) == arg)
+		{
+			alert("Cookie val: " + getCookieVal (j));
+			
+			return getCookieVal (j);
+		}
+		i = document.cookie.indexOf(" ", i) + 1;
+		if (i == 0) break; 
+	}
+	
+	return "";                                                          //Return "" if cookie not present with that name
+}
+
+function DeleteCookie(name, path, domain)
+{
+    if (GetCookie(name))
+    {
+		document.cookie = name + "=" +
+		((path) ? "; path=" + path : "") +
+		((domain) ? "; domain=" + domain : "") +
+		"; expires=Thu, 01-Jan-70 00:00:01 GMT";
+	}
+}
+
+function SetCookie(name, value, expires, path, domain, secure)
+{
+  document.cookie = name + "=" + escape (value) +
+    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+    ((path) ? "; path=" + path : "") +
+    ((domain) ? "; domain=" + domain : "") +
+    ((secure) ? "; secure" : "");
+}

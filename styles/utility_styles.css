@@ -1,0 +1,160 @@
+﻿/*-----------------------------------------------------------------*/
+/*------------------- CSS Utility file for Design -----------------*/
+/*---------- Author: Hardik Shah ----- Course: 4004-736 -----------*/
+/*-----------------------------------------------------------------*/
+
+
+.link {color:#0000ff; text-decoration:none;}
+.link:hover {color:#0000ff; text-decoration: underline;}
+
+.strong, .bold
+{
+    font-weight:bold;
+}
+
+.underline
+{
+    text-decoration:underline;
+}
+
+.float-left, floatLeft
+{
+    float:left; 
+}
+
+.float-right, floatRight
+{
+    float:right; 
+}
+
+.red
+{
+    color:red;
+}
+
+.white
+{
+    color:White;
+}
+
+.small 
+{
+    font-size:small;
+}
+
+.display-inline 
+{
+    display:inline;
+}
+
+.clear-both,.clearBoth
+{
+    clear:both;
+}
+
+.align-left, .alignLeft
+{
+    text-align:left;
+}
+
+.align-right, .alignRight 
+{
+    text-align:right;
+}
+
+.valign-top 
+{
+    vertical-align:top;
+}
+
+.valign-middle 
+{
+    vertical-align:middle;
+}
+
+.valign-bottom
+{
+    vertical-align:bottom;
+}
+
+.margin0
+{
+    margin:0px;
+}
+
+.margin-left-right-10
+{
+    margin-left:10px; 
+    margin-right:10px;
+}
+
+.margin-left-right-20
+{
+    margin-left:20px; 
+    margin-right:20px;
+}
+
+.margin-right-20
+{
+    margin-right:20px;
+}
+
+.margin0auto
+{
+    margin:0px auto;
+}
+
+.padding0
+{
+    padding:0px;
+}
+
+.padding-top-5 
+{
+    padding-top:5px;
+}
+
+.padding-top-60 
+{
+    padding-top:60px;
+}
+
+.padding-left-40
+{
+    padding-left:40px;
+}
+
+.padding-left-60
+{
+    padding-left:60px;
+}
+
+.padding-bottom-40 
+{
+    padding-bottom:40px;
+}
+
+.padding-bottom-60 
+{
+    padding-bottom:60px;
+}
+
+.padding-bottom-30 
+{
+    padding-bottom:30px;
+}
+
+.padding-bottom-20 
+{
+    padding-bottom:20px;
+}
+
+.border-none, .border0 
+{
+    border:none;
+}
+
+.border-collapse 
+{
+    border-collapse:collapse;
+}
